@@ -1,0 +1,95 @@
+== Software Development Process
+
+
+=== Roles in Product Team (_Scrum Team_)
+
+* **Requirements Manager** (_Product Owner_)
+* **Member of the development team** 
+** Developer
+** Designer
+** Tester
+* **Product Team Assistant** (_Scrum Master_)
+
+[TIP]
+Machine Coordinators, Head of Operations, Head of FAIR Commissioning Group and e.g Operators are not directly taking part of the Product Team, they are **Stakeholders**. + 
+But: Requirements Manager (_Product Owner_) is a **Stakeholder** and member of the Product Team, represents all stakeholders.
+
+**Stakeholders** are the purpose for which a software product is created.
+**Stakeholders** are the people who have certain requirements which needs to be fulfilled.
+
+
+==== Requirements Manager (_Product Owner_)
+* Collects, identifies and describes requirements (_PBIs_) in order to build a shared understanding of the demands, problems and the solutions together with the software product team. [Needs regular meetings with Product Team (_Sprint_Planning_Meeting_, _Sprint_Review_)]
+    
+* Makes decisions regarding the priority of requirements (_PBIs_) in order to deliver maximum outcome.
+
+* Determines whether a requirement (_PBI_) was satisfactorily delivered.
+Ensures transparency into the upcoming work of the Product Team.
+
+==== Product Team Assistant (_Scrum Master_)
+
+* Facilitating meetings for the team. This includes:
+** doing scheduling proposal to all team members
+** preparing
+** moderation
+** postprocessing
+* Mediating the general conflict of goals between development team (high technical quality) and Product Owner (more features).
+* Helping the team to get rid of impediments.
+* Keeping in touch with every stakeholder regularly, especially with the Product Owner
+* Helping to write or split user stories.
+* Helping to write or adapt product visions.
+* Helping to order product backlog items.
+* Helping with the release planning.
+* Being familiar with the team’s work.
+* Helping team and Product Owner to find a suitable 'Definition of Done'
+* Helping the team to continuously improve their process.
+
+
+==== Product Backlog
+Is a prioritized features list, containing short descriptions of all functionality desired in the product.
+
+A typical Product Backlog comprises the following different types of items:
+
+* Features
+* Bugs
+* Technical work
+* Knowledge acquisition
+
+image::scrum_overview.png[]
+
+
+==== Product Backlog for JavaFX Profile Grid Application
+
+This is an uncomplete example of a Product Backlog using User Stories to describe features.
+
+
+[format="csv",[width="100%",cols="^1,<10,<10,^2"]
+|===================================================
+include::product_backlog_clean_up.csv[]
+|===================================================
+
+
+
+==== Sprint Backlog
+
+image::sprint_backlog.png[]
+
+
+==== Sprint Planning Meeting
+
+==== Sprint Review Meeting
+
+==== Definition of Done
+Definition of Done is a simple list of activities (writing code, coding comments, unit testing, integration testing, release notes, design documents, etc.) that add verifiable/demonstrable value to the product.
+
+
+
+==== Request and Revision Process
+
+Still valid?
+Usefull to synchronize the Product Owner*s work with all Stakeholders
+
+image::request_and_revision_01.png[caption="Request and Revision Process 11.17 S.Reimann"]
+image::request_and_revision_02.png[caption="Request and Revision Process 11.17 S.Reimann"]
+image::request_and_revision_03.png[caption="Request and Revision Process 11.17 S.Reimann"]
+

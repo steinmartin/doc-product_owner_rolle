@@ -1,0 +1,80 @@
+:icons: font
+:imagesdir: common/img/
+:docinfodir: common/meta/
+:linkcss:
+
+:docinfo1:
+// In generated HTML this is transformed
+// to <meta name="description" content="..."/>
+:description: Sample document with custom header and footer parts.
+// In generated HTML this is transformed
+// to <meta name="keywords" content="..."/>
+:keywords: Asciidoctor, header, footer, docinfo
+
+== Die Rolle des __Product Owner__ im Entwicklungsprozess einer Software-Applikation für das GSI-Operating
+Martin Stein <m.stein@gsi.de>
+v0.2, 03.05.2021
+//:toc:
+
+
+=== Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation
+
+.Product (Team)
+[NOTE]
+Der Anglizismus _Product_ ist im Folgenden mit dem Wort Software-Applikation gleichzusetzen.
+
+
+==== Die Rolle des __Stake Holder__ außerhalb des __Product Team__
+
+Als erstes widmen wir uns der Rolle der __Stake Holder__, den verschiedenen Personen, für die die Software-Applikation gemacht wird oder entwickelt wurde. 
+
+[TIP]
+Betriebsleiter, Maschinen Koordinatoren, Mitglieder der FAIR Commissioning Group und Operateure sind nicht direkt Mitglieder des Product Teams.
+Sie sind sogenannte _Stakeholder_ und ihre Interessen werden vom _Product Owner_ im __Product Team__ vertreten.
+
+
+Traditionell kommt die Rolle des _Stake Holder_ der Rolle des Kunden nahe.
+Im Kontext einer innerbetrieblichen Entwicklung kommen die Bezeichnungen _Nutzer_, _Nutznießer_ oder _Anwender_ dieser Rolle meistens näher.
+Diesen Bezeichnungen untersteht letztlich die Forderung, dass Wünsche und Anforderungen dieses Personenkreises in das zu entwickelnde Produkt im Rahmen des rational möglichen einzufließen haben.
+
+
+
+==== Rollen innerhalb des __Product Team__ 
+
+* __Mitglied des Entwicklerteams__ (z.B. aus dem Developer Pool)
+* __Product Owner__
+
+
+===== __Mitglied des Entwicklerteams__
+__Mitglied des Entwicklerteams__ sind Personen, die direkt an den verschieden Entwicklungsaktivitäten beteiligt sind.
+Sie führen u.a. Aktivitäten und Leistungen durch in den Bereichen:
+
+** Software- / System-Design
+** Benutzeroberflächen-Design
+** Erstellung von sowohl technischer als auch Benutzer-Dokumentationen
+** Programmierung
+** Aufgaben der Qualitätssicherung
+
+===== __Product Owner__
+
+Der __Product Owner__ ist eine Art Bindeglied zwischen __Stake Holdern__ und __Entwicklerteam__ und steht dem __Entwicklerteam__ u.a. durch folgende Aktivitäten zur Seite.
+
+. Erkennen, Entdecken, Sammeln und Beschreiben von Anforderungen, um zusammen mit dem __Entwicklerteam__, ein gemeinsames Verständnis über die Anforderungsumsetzungen, die Probleme und deren Lösungen zu entwickeln.
+
+. Priorisierung der Anforderungen zur Optimierung der (zu einem bestimmten Zeitpunkt) auszuliefernden Software-Applikation.
+Dabei ist häufig eine Konsensfindung zusammen mit dem __Entwicklerteam__ und im Zweifel mit den __Stakeholdern__ notwendig.
+
+. Beurteilung, ob alle (bis zu einem bestimmten Zeitpunkt) eingeplanten Anforderungen zufriedenstellen abgedeckt wurden und korrekt ausgeliefert wurden.
+Die Ergebnisse dieser Beurteilungen werden, wenn nötig und wenn eingeplant, in die nächste Arbeitsphase des __Product Teams__ mitgenommen. 
+    
+
+
+
+
+==== __Sprint__
+
+
+==== __Product Backlog__, __Sprint Backlog__
+
+
+==== __Sprint Planning__, __Sprint Review__
