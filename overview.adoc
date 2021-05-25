@@ -16,6 +16,14 @@ Martin Stein <m.stein@gsi.de>
 v0.2, 03.05.2021
 //:toc:
 
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
 
 === Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation
 
