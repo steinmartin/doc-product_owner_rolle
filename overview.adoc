@@ -1,8 +1,3 @@
-:icons: font
-:imagesdir: common/img/
-:docinfodir: common/meta/
-:linkcss:
-
 :docinfo1:
 // In generated HTML this is transformed
 // to <meta name="description" content="..."/>
@@ -11,12 +6,16 @@
 // to <meta name="keywords" content="..."/>
 :keywords: Asciidoctor, header, footer, docinfo
 
-== Die Rolle des __Product Owner__ im Entwicklungsprozess einer Software-Applikation für das GSI-Operating
+= Die Rolle des __Product Owner__ im Entwicklungsprozess einer Software-Applikation für das GSI-Operating 
 Martin Stein <m.stein@gsi.de>
-v0.2, 03.05.2021
-//:toc:
-
+v1.0, 2014-08-01
+:toc:
+:icons: font
+:imagesdir: common/img/
+:docinfodir: common/meta/
+:linkcss:
 ifdef::env-github[]
+:icons: font
 :tip-caption: :bulb:
 :note-caption: :information_source:
 :important-caption: :heavy_exclamation_mark:
@@ -25,14 +24,14 @@ ifdef::env-github[]
 endif::[]
 
 
-=== Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation
+== Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation
 
 .Product (Team)
 [NOTE]
 Der Anglizismus _Product_ ist im Folgenden mit dem Wort Software-Applikation gleichzusetzen.
 
 
-==== Die Rolle des __Stake Holder__ außerhalb des __Product Team__
+=== Die Rolle des __Stake Holder__ außerhalb des __Product Team__
 
 Als erstes widmen wir uns der Rolle der __Stake Holder__, den verschiedenen Personen, für die die Software-Applikation gemacht wird oder entwickelt wurde. 
 
@@ -47,13 +46,13 @@ Diesen Bezeichnungen untersteht letztlich die Forderung, dass Wünsche und Anfor
 
 
 
-==== Rollen innerhalb des __Product Team__ 
+=== Rollen innerhalb des __Product Team__ 
 
 * __Mitglied des Entwicklerteams__ (z.B. aus dem Developer Pool)
 * __Product Owner__
 
 
-===== __Mitglied des Entwicklerteams__
+==== __Mitglied des Entwicklerteams__
 __Mitglied des Entwicklerteams__ sind Personen, die direkt an den verschieden Entwicklungsaktivitäten beteiligt sind.
 Sie führen u.a. Aktivitäten und Leistungen durch in den Bereichen:
 
@@ -63,7 +62,7 @@ Sie führen u.a. Aktivitäten und Leistungen durch in den Bereichen:
 ** Programmierung
 ** Aufgaben der Qualitätssicherung
 
-===== __Product Owner__
+==== __Product Owner__
 
 Der __Product Owner__ ist eine Art Bindeglied zwischen __Stake Holdern__ und __Entwicklerteam__ und steht dem __Entwicklerteam__ u.a. durch folgende Aktivitäten zur Seite.
 
@@ -79,10 +78,10 @@ Die Ergebnisse dieser Beurteilungen werden, wenn nötig und wenn eingeplant, in 
 
 
 
-==== __Sprint__
+=== __Sprint__
 
 
-==== __Product Backlog__, __Sprint Backlog__
+=== __Product Backlog__, __Sprint Backlog__
 
 
-==== __Sprint Planning__, __Sprint Review__
+=== __Sprint Planning__, __Sprint Review__

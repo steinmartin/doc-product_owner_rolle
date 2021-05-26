@@ -4,10 +4,11 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.12">
+<meta name="generator" content="Asciidoctor 2.0.15">
 <meta name="description" content="Sample document with custom header and footer parts.">
 <meta name="keywords" content="Asciidoctor, header, footer, docinfo">
-<title>Die Rolle des Product Owner im Entwicklungsprozess einer Softwareapplikation</title>
+<meta name="author" content="Martin Stein">
+<title>Die Rolle des Product Owner im Entwicklungsprozess einer Software-Applikation für das GSI-Operating</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <link rel="stylesheet" href="./asciidoctor.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,17 +29,32 @@
 </head>
 <body class="article">
 <div id="header">
+<h1>Die Rolle des <em>Product Owner</em> im Entwicklungsprozess einer Software-Applikation für das GSI-Operating</h1>
+<div class="details">
+<span id="author" class="author">Martin Stein</span><br>
+<span id="email" class="email"><a href="mailto:m.stein@gsi.de">m.stein@gsi.de</a></span><br>
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">2014-08-01</span>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_die_verschiedenen_rollen_im_entwicklungsprozess_einer_softwareapplikation">Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation</a>
+<ul class="sectlevel2">
+<li><a href="#_die_rolle_des_stake_holder_außerhalb_des_product_team">Die Rolle des <em>Stake Holder</em> außerhalb des <em>Product Team</em></a></li>
+<li><a href="#_rollen_innerhalb_des_product_team">Rollen innerhalb des <em>Product Team</em></a></li>
+<li><a href="#_sprint"><em>Sprint</em></a></li>
+<li><a href="#_product_backlog_sprint_backlog"><em>Product Backlog</em>, <em>Sprint Backlog</em></a></li>
+<li><a href="#_sprint_planning_sprint_review"><em>Sprint Planning</em>, <em>Sprint Review</em></a></li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_die_rolle_des_product_owner_im_entwicklungsprozess_einer_softwareapplikation">Die Rolle des Product Owner im Entwicklungsprozess einer Softwareapplikation</h2>
+<h2 id="_die_verschiedenen_rollen_im_entwicklungsprozess_einer_softwareapplikation">Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Martin Stein &lt;<a href="mailto:m.stein@gsi.de">m.stein@gsi.de</a>&gt;
-v1.0, 03.05.2021</p>
-</div>
-<div class="sect2">
-<h3 id="_die_verschiedenen_rollen_im_entwicklungsprozess_einer_softwareapplikation">Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation</h3>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -46,60 +62,115 @@ v1.0, 03.05.2021</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-<div class="title"><em>Product</em></div>
-Der Anglizismus <em>Product</em> ist im Folgenden mit dem Wort Softwareapplikation gleichzusetzen.
+<div class="title">Product (Team)</div>
+Der Anglizismus <em>Product</em> ist im Folgenden mit dem Wort Software-Applikation gleichzusetzen.
 </td>
 </tr>
 </table>
 </div>
+<div class="sect2">
+<h3 id="_die_rolle_des_stake_holder_außerhalb_des_product_team">Die Rolle des <em>Stake Holder</em> außerhalb des <em>Product Team</em></h3>
+<div class="paragraph">
+<p>Als erstes widmen wir uns der Rolle der <em>Stake Holder</em>, den verschiedenen Personen, für die die Software-Applikation gemacht wird oder entwickelt wurde.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Betriebsleiter, Maschinen Koordinatoren, Mitglieder der FAIR Commissioning Group und Operateure sind nicht direkt Mitglieder des Product Teams.
+Sie sind sogenannte <em>Stakeholder</em> und ihre Interessen werden vom <em>Product Owner</em> im <em>Product Team</em> vertreten.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Traditionell kommt die Rolle des <em>Stake Holder</em> der Rolle des Kunden nahe.
+Im Kontext einer innerbetrieblichen Entwicklung kommen die Bezeichnungen <em>Nutzer</em>, <em>Nutznießer</em> oder <em>Anwender</em> dieser Rolle meistens näher.
+Diesen Bezeichnungen untersteht letztlich die Forderung, dass Wünsche und Anforderungen dieses Personenkreises in das zu entwickelnde Produkt im Rahmen des rational möglichen einzufließen haben.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rollen_innerhalb_des_product_team">Rollen innerhalb des <em>Product Team</em></h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Stake Holder</p>
+<p><em>Mitglied des Entwicklerteams</em> (z.B. aus dem Developer Pool)</p>
 </li>
 <li>
-<p>Mitglied des Entwicklerteams (z.B. aus dem Developer Pool)</p>
-</li>
-<li>
-<p>Product Owner</p>
+<p><em>Product Owner</em></p>
 </li>
 </ul>
 </div>
 <div class="sect3">
-<h4 id="_stake_holder">Stake Holder</h4>
-
+<h4 id="_mitglied_des_entwicklerteams"><em>Mitglied des Entwicklerteams</em></h4>
+<div class="paragraph">
+<p><em>Mitglied des Entwicklerteams</em> sind Personen, die direkt an den verschieden Entwicklungsaktivitäten beteiligt sind.
+Sie führen u.a. Aktivitäten und Leistungen durch in den Bereichen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Software- / System-Design</p>
+</li>
+<li>
+<p>Benutzeroberflächen-Design</p>
+</li>
+<li>
+<p>Erstellung von sowohl technischer als auch Benutzer-Dokumentationen</p>
+</li>
+<li>
+<p>Programmierung</p>
+</li>
+<li>
+<p>Aufgaben der Qualitätssicherung</p>
+</li>
+</ul>
+</div>
 </div>
 <div class="sect3">
-<h4 id="_mitglied_des_entwicklerteams">Mitglied des Entwicklerteams</h4>
+<h4 id="_product_owner"><em>Product Owner</em></h4>
+<div class="paragraph">
+<p>Der <em>Product Owner</em> ist eine Art Bindeglied zwischen <em>Stake Holdern</em> und <em>Entwicklerteam</em> und steht dem <em>Entwicklerteam</em> u.a. durch folgende Aktivitäten zur Seite.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Erkennen, Entdecken, Sammeln und Beschreiben von Anforderungen, um zusammen mit dem <em>Entwicklerteam</em>, ein gemeinsames Verständnis über die Anforderungsumsetzungen, die Probleme und deren Lösungen zu entwickeln.</p>
+</li>
+<li>
+<p>Priorisierung der Anforderungen zur Optimierung der (zu einem bestimmten Zeitpunkt) auszuliefernden Software-Applikation.
+Dabei ist häufig eine Konsensfindung zusammen mit dem <em>Entwicklerteam</em> und im Zweifel mit den <em>Stakeholdern</em> notwendig.</p>
+</li>
+<li>
+<p>Beurteilung, ob alle (bis zu einem bestimmten Zeitpunkt) eingeplanten Anforderungen zufriedenstellen abgedeckt wurden und korrekt ausgeliefert wurden.
+Die Ergebnisse dieser Beurteilungen werden, wenn nötig und wenn eingeplant, in die nächste Arbeitsphase des <em>Product Teams</em> mitgenommen.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_sprint"><em>Sprint</em></h3>
 
 </div>
-<div class="sect3">
-<h4 id="_product_owner">Product Owner</h4>
+<div class="sect2">
+<h3 id="_product_backlog_sprint_backlog"><em>Product Backlog</em>, <em>Sprint Backlog</em></h3>
 
 </div>
-<div class="sect3">
-<h4 id="_level_3_section_title">Level 3 Section Title</h4>
-<div class="sect4">
-<h5 id="_level_4_section_title">Level 4 Section Title</h5>
-<div class="sect5">
-<h6 id="_level_5_section_title">Level 5 Section Title</h6>
+<div class="sect2">
+<h3 id="_sprint_planning_sprint_review"><em>Sprint Planning</em>, <em>Sprint Review</em></h3>
 
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_another_level_1_section_title">Another Level 1 Section Title</h2>
-<div class="sectionbody">
-
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-05-17 19:10:53 +0200
+Version 1.0<br>
+Last updated 2021-05-26 10:55:30 +0200
 </div>
 </div>
 <div id="content">
