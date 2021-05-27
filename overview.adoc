@@ -33,7 +33,7 @@ Der Anglizismus _Product_ ist im Folgenden mit dem Wort Software-Applikation gle
 
 === Die Rolle des __Stake Holder__ außerhalb des __Product Team__
 
-Als erstes widmen wir uns der Rolle der __Stake Holder__, den verschiedenen Personen, für die die Software-Applikation gemacht wird oder entwickelt wurde. 
+Als erstes widmen wir uns der Rolle der __Stake Holder__, den Personen, für die die Software-Applikation gemacht wird oder entwickelt wurde. 
 
 [TIP]
 Betriebsleiter, Maschinen Koordinatoren, Mitglieder der FAIR Commissioning Group und Operateure sind nicht direkt Mitglieder des Product Teams.
