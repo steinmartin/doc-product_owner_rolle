@@ -1,3 +1,4 @@
+:stylesheet: asciidoctor.css
 :docinfo1:
 // In generated HTML this is transformed
 // to <meta name="description" content="..."/>
@@ -6,9 +7,10 @@
 // to <meta name="keywords" content="..."/>
 :keywords: Asciidoctor, header, footer, docinfo
 
-= Die Rolle des __Product Owner__ im Entwicklungsprozess einer Software-Applikation für das GSI-Operating 
+= Die Rolle des __Product Owner__ im Entwicklungsprozess einer Software-Applikation für das GSI-Operating
 Martin Stein <m.stein@gsi.de>
-v1.0, 2014-08-01
+v1.0, 2021-05-20
+:toc-title: Inhaltsverzeichnis
 :toc:
 :icons: font
 :imagesdir: common/img/
@@ -22,6 +24,9 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
+
+== Der Software-Entwickungsprozess als Agile Methode
+
 
 
 == Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation
@@ -46,7 +51,7 @@ Diesen Bezeichnungen untersteht letztlich die Forderung, dass Wünsche und Anfor
 
 
 
-=== Rollen innerhalb des __Product Team__ 
+=== Die Rollen innerhalb des __Product Team__ 
 
 * __Mitglied des Entwicklerteams__ (z.B. aus dem Developer Pool)
 * __Product Owner__
@@ -76,12 +81,24 @@ Die Ergebnisse dieser Beurteilungen werden, wenn nötig und wenn eingeplant, in 
     
 
 
+== __Product Backlog__
+
+Da der Focus dieser Dokumentation auf den __Product Owner__ gerichtet ist, fangen wir mit einem sogenannten __Artifakt__ an, welches eine zentrale Rolle für die Arbeit eines __Product Owner__s darstellt, dem __Product Backlog__.
+
+.Artifakt (Scrum)
+[NOTE]
+===============================
+Die im folgenden vorgestellte Softwareentwicklungsmethodologie ist stark an die agile Scrum Methode angelehnt. Bei Scrum ist ein __Artifakt__, ein Art Prozessdokumentation.
+Es gehören immer mindestens der __Product Backlog__, der __Sprint Backlog__ und das __Increment__ dazu.
+===============================
 
 
-=== __Sprint__
+== __Sprint__
+Nun kommen wir aus Sicht des __Product Owner__s auf die Zusammenarbeit zwischen __Product Owner__ und dem __Product Team__.
 
 
-=== __Product Backlog__, __Sprint Backlog__
+
+== __Sprint Backlog__
 
 
-=== __Sprint Planning__, __Sprint Review__
+== __Sprint Planning__, __Sprint Review__
