@@ -25,9 +25,10 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
+
 == Der Software-Entwickungsprozess als Agile Methode
 
-
+image::scrum_process.svg[Embedded,1000,opts=inline]
 
 == Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation
 
@@ -79,6 +80,7 @@ Dabei ist häufig eine Konsensfindung zusammen mit dem __Entwicklerteam__ und im
 . Beurteilung, ob alle (bis zu einem bestimmten Zeitpunkt) eingeplanten Anforderungen zufriedenstellen abgedeckt wurden und korrekt ausgeliefert wurden.
 Die Ergebnisse dieser Beurteilungen werden, wenn nötig und wenn eingeplant, in die nächste Arbeitsphase des __Product Teams__ mitgenommen. 
     
+
 
 
 == __Product Backlog__
