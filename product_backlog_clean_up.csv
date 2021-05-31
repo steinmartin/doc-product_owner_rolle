@@ -1,0 +1,8 @@
+Card #,Title,Description,SP
+2,"Profile grid visual representation as a component with one or two graphs and aditional user interface components like amplification level, aquisition time and so on.",,XL (20)
+3,Profile grid data collector passes data to area graph to visualize profile grid.,,XL (20)
+9,"Profile Grids in main window should be ordered in particle flight direction, e.g. from bottom to top.",,S (2)
+8,"User can choose a PG belonging to a context (chain, particle transfer, virtual accelerator).",Test: Check if PG list looks feasible and selected PG is visualized.,M (5)
+6,User can set amplification level of a choosen PG to improve measurement and visualization of PG data graph.,Test: Switch amplification level in GUI and check if PG graph is changing accordingly,M (5)
+7,User can choose existing context or virtual accelerator for a specific PG to measure a particular beam.,Test: Switch contexti GUI and check if PG graph is changing accordingly,S (2)
+11,X-Axis of the visualized PGs must optionally scale accordingly to visualized PG with the largest X dimensions.,X-Axis of the visualized PGs must optionally scale accordingly to the visualized PG with the largest X dimensions. Same is true for Y-axis. Let the user easily compare profile of various PGs.,M (5)

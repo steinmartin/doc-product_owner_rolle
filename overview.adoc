@@ -28,7 +28,19 @@ endif::[]
 
 == Der Software-Entwickungsprozess als Agile Methode
 
-image::scrum_process.svg[Embedded,1000,opts=inline]
+Im Bereich der Software-Entwicklung werden häufig Agile Methoden dem Wasserfall-Modell orientierten Vorgehensweisen vorgezogen.
+So auch bei der hier betrachteten Methode der Applikationsentwicklung für das GSI-Operating.
+
+.Wasserfall vs. Agile/Interative Vorgehensweise.
+
+[#img-waterfall_vs_agile]
+.Wasserfall vs. Agile/Interative Vorgehensweise. KSmith (WMF),CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+image::waterfall_vs_agile.svg[waterfall_vs_agile,900]
+
+[TIP]
+Ein Block aus roter Planungsphase, gelber Designphase und grüner Herstellungsphase entspricht einer Iteration bei Agilen Methoden und wird im folgenden als __Sprint__ bezeichnet.
+
+//image::scrum_process.svg[Embedded,1000,opts=inline]
 
 == Die verschiedenen Rollen im Entwicklungsprozess einer Softwareapplikation
 
@@ -43,13 +55,12 @@ Als erstes widmen wir uns der Rolle der __Stake Holder__, den Personen, für die
 
 [TIP]
 Betriebsleiter, Maschinen Koordinatoren, Mitglieder der FAIR Commissioning Group und Operateure sind nicht direkt Mitglieder des Product Teams.
-Sie sind sogenannte _Stakeholder_ und ihre Interessen werden vom _Product Owner_ im __Product Team__ vertreten.
+Sie sind sogenannte _Stakeholder_ oder Nutzer und ihre Interessen werden vom _Product Owner_ im __Product Team__ vertreten.
 
 
 Traditionell kommt die Rolle des _Stake Holder_ der Rolle des Kunden nahe.
-Im Kontext einer innerbetrieblichen Entwicklung kommen die Bezeichnungen _Nutzer_, _Nutznießer_ oder _Anwender_ dieser Rolle meistens näher.
+Im Kontext einer innerbetrieblichen Entwicklung kommen die Bezeichnungen Nutzer, Nutznießer oder Anwender dieser Rolle aber meistens näher.
 Diesen Bezeichnungen untersteht letztlich die Forderung, dass Wünsche und Anforderungen dieses Personenkreises in das zu entwickelnde Produkt im Rahmen des rational möglichen einzufließen haben.
-
 
 
 === Die Rollen innerhalb des __Product Team__ 
@@ -82,21 +93,51 @@ Die Ergebnisse dieser Beurteilungen werden, wenn nötig und wenn eingeplant, in 
     
 
 
+[#img-scrum_process]
+.Agiler, Scrum orientierter Entwicklungsprozess aus der Sicht des Product Teams
+image::scrum_process.svg[waterfall_vs_agile,1000]
+
+
+
 
 == __Product Backlog__
 
-Da der Focus dieser Dokumentation auf den __Product Owner__ gerichtet ist, fangen wir mit einem sogenannten __Artifakt__ an, welches eine zentrale Rolle für die Arbeit eines __Product Owner__s darstellt, dem __Product Backlog__.
+Der Fokus dieser Dokumentation ist auf die Rolle des __Product Owner__ gerichtet ist.
+Deshalb  wenden wir unseren Blick zuerst auf ein __Artifakt__ , welches eine zentrale Rolle für die Arbeit des __Product Owner__s spielt.
+Den sogenannten __Product Backlog__.
 
 .Artifakt (Scrum)
 [NOTE]
 ===============================
-Die im folgenden vorgestellte Softwareentwicklungsmethodologie ist stark an die agile Scrum Methode angelehnt. Bei Scrum ist ein __Artifakt__, ein Art Prozessdokumentation.
-Es gehören immer mindestens der __Product Backlog__, der __Sprint Backlog__ und das __Increment__ dazu.
+Die im folgenden vorgestellte Softwareentwicklungsmethodologie ist stark an die agile Scrum Methode angelehnt.
+Bei Scrum ist ein __Artifakt__, eine Art Prozessdokumentation.
+Zu den Artifakten gehören mindestens der __Product Backlog__, der __Sprint Backlog__ und das __Increment__.
 ===============================
+
+Der __Product Backlog__ ist im Prinzip eine Liste von Anforderungen.
+Der __Product Owner__ ist zuständig für den __Product Backlog__, pflegt ihn und entwickelt ihn ständig weiter.
+
+Zur Erfüllung dieser Zuständigkeit braucht der __Product Owner__ regelmäßigen Input sowohl vom __Entwicklerteam__, als auch von den __Stakeholdern__.
+Die einzelnen Einträge des  __Product Backlog__ werden __Product_Backlog Items__ genannt.
+Welche formalen Regeln zu beachten sind, um diese __Product_Backlog Items (PBI)__ zu erstellen, soll zunächst nicht Bestandteil dieser Dokumentation sein, muss aber prinzipiell geklärt sein.
+Ein __Product Backlog__ entwickelt sich nach und nach.
+Seine Vollständigkeit ist keine Zielvorgabe, da man von einer dynamischen Entwicklung der Anforderungen während der gesamten Projektdauer ausgeht.
+Die Einträge (__PBI__s) des __Product_Backlog__  müssen regelmäßig unter Berücksichtigung von Faktoren wie Wert, Risiko, Machbarkeit und Abhängkeit priorisiert werden.
+Der __Product Owner__ ist neben der Priorisierung gefordert bei der Beschreibung der einzelnen __Product_Backlog Items (PBI)__.
+Er muss versuchen sicherzustellen, dass sowohl die __Stakeholdern__ als auch das __Entwicklerteam__ das gleiche Verständnis über die  __Product_Backlog Items (PBI)__s entwickeln.. 
+Der __Product Backlog__ wird während der gesamten Projektlaufzeit gepflegt. Die __Product_Backlog Items (PBI)__ werden Schritt für Schritt in __Sprints__ bearbeitet. 
+
+Hier ist ein unvollständiges Beispiel eines __Product Backlog__ unter der Benutzung von sogenannten __User Stories__ zur Beschreibung der gewünschten Funtionalitäten und Features.
+
+
+[format="csv",[width="100%",cols="^1,<10,<10,^2"]
+|===================================================
+include::product_backlog_clean_up.csv[]
+|===================================================
 
 
 == __Sprint__
-Nun kommen wir aus Sicht des __Product Owner__s auf die Zusammenarbeit zwischen __Product Owner__ und dem __Product Team__.
+//Nun kommen wir aus Sicht des __Product Owner__s auf die Zusammenarbeit zwischen __Product Owner__ und dem __Product Team__.
 
 
 
