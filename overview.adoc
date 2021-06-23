@@ -91,14 +91,9 @@ Dabei ist häufig eine Konsensfindung zusammen mit dem __Entwicklerteam__ und im
 . Beurteilung, ob alle (bis zu einem bestimmten Zeitpunkt) eingeplanten Anforderungen zufriedenstellen abgedeckt wurden und korrekt ausgeliefert wurden.
 Die Ergebnisse dieser Beurteilungen werden, wenn nötig und wenn eingeplant, in die nächste Arbeitsphase des __Product Teams__ mitgenommen. 
     
-
-
 [#img-scrum_process]
 .Agiler, Scrum orientierter Entwicklungsprozess aus der Sicht des Product Teams
 image::scrum_process.svg[waterfall_vs_agile,1000]
-
-
-
 
 == __Product Backlog__
 
@@ -117,15 +112,20 @@ Zu den Artifakten gehören mindestens der __Product Backlog__, der __Sprint Back
 Der __Product Backlog__ ist im Prinzip eine Liste von Anforderungen.
 Der __Product Owner__ ist zuständig für den __Product Backlog__, pflegt ihn und entwickelt ihn ständig weiter.
 
+[#img-product_backlog]
+.Product Backlog als Schnittstelle zwischen den Rollen
+image::product_backlog.svg[product_backlog_and_roles,300]
+
+
 Zur Erfüllung dieser Zuständigkeit braucht der __Product Owner__ regelmäßigen Input sowohl vom __Entwicklerteam__, als auch von den __Stakeholdern__.
-Die einzelnen Einträge des  __Product Backlog__ werden __Product_Backlog Items__ genannt.
-Welche formalen Regeln zu beachten sind, um diese __Product_Backlog Items (PBI)__ zu erstellen, soll zunächst nicht Bestandteil dieser Dokumentation sein, muss aber prinzipiell geklärt sein.
+Die einzelnen Einträge des  __Product Backlog__ werden __Product Backlog Item (PBI)__ genannt.
+Welche formalen Regeln zu beachten sind, um __PBI__s  zu erstellen, soll *zunächst nicht Bestandteil dieser Dokumentation* sein, muss aber prinzipiell geklärt sein.
 Ein __Product Backlog__ entwickelt sich nach und nach.
 Seine Vollständigkeit ist keine Zielvorgabe, da man von einer dynamischen Entwicklung der Anforderungen während der gesamten Projektdauer ausgeht.
-Die Einträge (__PBI__s) des __Product_Backlog__  müssen regelmäßig unter Berücksichtigung von Faktoren wie Wert, Risiko, Machbarkeit und Abhängkeit priorisiert werden.
-Der __Product Owner__ ist neben der Priorisierung gefordert bei der Beschreibung der einzelnen __Product_Backlog Items (PBI)__.
-Er muss versuchen sicherzustellen, dass sowohl die __Stakeholdern__ als auch das __Entwicklerteam__ das gleiche Verständnis über die  __Product_Backlog Items (PBI)__s entwickeln.. 
-Der __Product Backlog__ wird während der gesamten Projektlaufzeit gepflegt. Die __Product_Backlog Items (PBI)__ werden Schritt für Schritt in __Sprints__ bearbeitet. 
+Die Einträge (__PBI__s) des __Product Backlog__  müssen regelmäßig unter Berücksichtigung von Faktoren wie Wert, Risiko, Machbarkeit und Abhängkeit priorisiert werden.
+Der __Product Owner__ ist neben der Priorisierung gefordert bei der Beschreibung der einzelnen __Product Backlog Items (PBI)__.
+Er muss versuchen sicherzustellen, dass sowohl die __Stakeholdern__ als auch das __Entwicklerteam__ das gleiche Verständnis über die  __Product_Backlog Items (PBI)__s entwickeln.
+Der __Product Backlog__ wird während der gesamten Projektlaufzeit gepflegt. Die __Product_Backlog Items (PBI)__ werden Schritt für Schritt in __Sprints__ bearbeitet.
 
 Hier ist ein unvollständiges Beispiel eines __Product Backlog__ unter der Benutzung von sogenannten __User Stories__ zur Beschreibung der gewünschten Funtionalitäten und Features.
 
