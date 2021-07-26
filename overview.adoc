@@ -9,7 +9,7 @@
 
 = Die Rolle des __Product Owner__ im Entwicklungsprozess einer Software-Applikation für das GSI-Operating
 Martin Stein <m.stein@gsi.de>
-v1.0, 2021-05-20
+v1.1, 2021-06-25
 :toc-title: Inhaltsverzeichnis
 :toc:
 :icons: font
