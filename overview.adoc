@@ -65,7 +65,7 @@ Diesen Bezeichnungen untersteht letztlich die Forderung, dass Wünsche und Anfor
 
 === Die Rollen innerhalb des __Product Team__ 
 
-* __Mitglied des Entwicklerteams__ (z.B. aus dem Developer Pool)
+* __Mitglied des Entwicklerteams__ (z.B. aus dem __GSI APP/APS Developer Pool__)
 * __Product Owner__
 
 
@@ -123,25 +123,24 @@ Welche formalen Regeln zu beachten sind, um __PBI__s  zu erstellen, soll *zunäc
 Ein __Product Backlog__ entwickelt sich nach und nach.
 Seine Vollständigkeit ist keine Zielvorgabe, da man von einer dynamischen Entwicklung der Anforderungen während der gesamten Projektdauer ausgeht.
 Die Einträge (__PBI__s) des __Product Backlog__  müssen regelmäßig unter Berücksichtigung von Faktoren wie Wert, Risiko, Machbarkeit und Abhängkeit priorisiert werden.
-Der __Product Owner__ ist neben der Priorisierung gefordert bei der Beschreibung der einzelnen __Product Backlog Items (PBI)__.
-Er muss versuchen sicherzustellen, dass sowohl die __Stakeholdern__ als auch das __Entwicklerteam__ das gleiche Verständnis über die  __Product_Backlog Items (PBI)__s entwickeln.
+Der __Product Owner__ muss versuchen sicherzustellen, dass sowohl die __Stakeholdern__ als auch das __Entwicklerteam__ das gleiche Verständnis über die  __Product_Backlog Items (PBI)__s entwickeln.
 Der __Product Backlog__ wird während der gesamten Projektlaufzeit gepflegt. Die __Product_Backlog Items (PBI)__ werden Schritt für Schritt in __Sprints__ bearbeitet.
 
-Hier ist ein unvollständiges Beispiel eines __Product Backlog__ unter der Benutzung von sogenannten __User Stories__ zur Beschreibung der gewünschten Funtionalitäten und Features.
+.EPIC
+[NOTE]
+===================================================
+Zum Zeitpunkt der Erstellung dieser Dokumentation (Juli 2021), hat der __Product Owner__ zuerst die Aufgabe, die Anforderungen an die neue Applikation in einer nicht ins Detail gehenden Sicht generell zu beschreiben.
+Diese Beschreibungen werden __EPIC__s genannt.
+Die __EPIC__s dienen zur Übersichtsdarstellung der Produktanforderungen.
+Um im __Product Backlog__ und spätestens im __Sprint Backlog__ besser planbare und realisierbare Beschreibungen zu haben, werden die __EPIC__s vom Product Owner mit Hilfe des __Entwicklerteam__s in sogenannte __User Storie__s aufgebrochen.
+Diese  __User Storie__s erfüllen dann u.a. den Zweck der __Product_Backlog Item (PBI)__s.
+===================================================
 
-
-[format="csv",[width="100%",cols="^1,<10,<10,^2"]
-|===================================================
-include::product_backlog_clean_up.csv[]
-|===================================================
-
-
-== __Sprint__
+// == __Sprint__
 //Nun kommen wir aus Sicht des __Product Owner__s auf die Zusammenarbeit zwischen __Product Owner__ und dem __Product Team__.
 
 
+//== __Sprint Backlog__
 
-== __Sprint Backlog__
 
-
-== __Sprint Planning__, __Sprint Review__
+//== __Sprint Planning__, __Sprint Review__
